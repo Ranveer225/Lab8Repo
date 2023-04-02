@@ -50,5 +50,12 @@ head=succedingNode;
   tail =null;
 }
 }
+public String tostring(){
+String str = "";
+Node e = this. head;
+while(e!=null){
+}
+return str;
+}
 }
 
