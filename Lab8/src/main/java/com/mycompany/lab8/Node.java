@@ -17,7 +17,6 @@ class Node {
         this.next=null;
     }
 }
-
 class LinkedList {
     private Node tail;
     private Node head;
@@ -25,8 +24,8 @@ class LinkedList {
       tail =null;
       head=null;
   }
-
-public void append(Node newNode) {
+  
+  public void append(Node newNode) {
 if(head ==null){    
 }
 else{
@@ -34,4 +33,22 @@ tail.next=newNode;
 tail=newNode;
 }
 }
+ public void prepend(Node newNode){
+if(head ==null){
+head=newNode;
+tail=newNode;
 }
+else{
+newNode.next=head;
+head=newNode;
+}
+}
+public void removeAfter(Node currentNode){
+if(currentNode == null && head !=null){
+Node succedingNode=head.next;
+head=succedingNode;
+  tail =null;
+}
+}
+}
+
