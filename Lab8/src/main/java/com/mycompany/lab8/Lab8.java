@@ -27,7 +27,6 @@ System.out.println(list02);
 
     }
        
-
     
 public static boolean isPrime(int num){
 
@@ -45,6 +44,7 @@ return false;
 return true;
 }
 }
+
 
 //remainder is 0 with n factor
 
