@@ -82,7 +82,6 @@ Node newNode = new Node(i);
 }
 }         
     }
-
     private static void primesTolist(int i, LinkedList list01) {
         throw new UnsupportedOperationException("Not supported yet."); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody
     }
