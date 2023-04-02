@@ -60,7 +60,7 @@ Node newNode=new Node(i);
 
 public static boolean containsThree(int n){
 
-//check for three
+//check for '3'
 
 while(n > 0){
 if (n % 10 == 3){
@@ -72,7 +72,7 @@ return false;
 }
 public static void primeswithThreeTolist(int n, LinkedList list){
 
-//add primes to linked list with '3'
+//Add primes to Linkedlist with '3"
 
 for(int i = 0; i < n; i++){
 
