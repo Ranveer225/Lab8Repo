@@ -28,6 +28,7 @@ System.out.println(list02);
     }
        
 
+    
 public static boolean isPrime(int num){
 
 //checks if prime
