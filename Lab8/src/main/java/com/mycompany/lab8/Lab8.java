@@ -54,7 +54,7 @@ public static void primesToList(int n, LinkedList list){
 
 for(int i= 0; i < n; i++){
 if(isPrime(i)){
-Node newNode=new Node(i);
+Node newNode=new Node(i); 
 }
 }
 }
