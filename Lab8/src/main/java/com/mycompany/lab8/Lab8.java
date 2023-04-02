@@ -18,12 +18,12 @@ public class Lab8 {
 
       LinkedList list02 = new LinkedList();
 
-     primesTolist(100, list01); //all primes from 0 to 1
+     primesTolist(100, list01); //all primes from 0 to n
      System.out.println(list01);
 
 primeswithThreeTolist(100, list02); //all primes from 0 to n
 System.out.println(list02);
-
+// '3' to list02
 
     }
        
