@@ -25,4 +25,13 @@ class LinkedList {
       tail =null;
       head=null;
   }
+
+public void append(Node newNode) {
+if(head ==null){    
+}
+else{
+tail.next=newNode;
+tail=newNode;
+}
+}
 }
